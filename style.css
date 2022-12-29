@@ -262,3 +262,37 @@
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
+
+.button8 {
+  border-radius: 0.6rem;
+  background: transparent;
+
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  align-self: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px;
+  text-align: center;
+  padding: 20px 40px;
+  cursor: pointer;
+
+  /* box-sizing: border-box; */
+}
+.button8 {
+  border: none;
+  width: 8em;
+  height: 3.5em;
+}
+.button8 span {
+  background: linear-gradient(#f9629f, #ff69b4);
+  display: inline-block;
+  position: absolute;
+  border-radius: 0.6rem;
+  border-radius: 0.6rem;
+  width: 8em;
+  height: 3.5em;
+  transition: all 0.8s;
+  line-height: 60px;
+  backface-visibility: hidden;
+}
